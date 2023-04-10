@@ -12,9 +12,9 @@ stages:
   - build
 
 build-image:
-  stage: mark-builder
+  stage: build
   tags:
-    - builder
+    - mark-builder
   before_script:
     - echo "target container registry host:$CI_REGISTRY"
     - echo "glpat-aQET5A_PwPpFRQSEnKf5" | sudo docker login -u "container_registry" --password-stdin "$CI_REGISTRY"
