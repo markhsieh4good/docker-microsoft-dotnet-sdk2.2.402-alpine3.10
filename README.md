@@ -9,3 +9,7 @@
 [v] dotnet/core/sdk
 [x] dotnet/sdk
 ```
+## enhance
+```bash
+++ dotnet add package Microsoft.Extensions.Logging
+```
